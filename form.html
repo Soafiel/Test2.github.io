@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="data.html">Data</a>
+      <a href="zdjecia.html">Images</a>
+      <a href="form.html">Form</a>
+      <a href="autorzy.html">Authors</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 id="formatka">VR, AR czy MR</h1>
+
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="typ">typ:</label><br>
+      <select id="typ" name="topic">
+        <option value="VR">VR</option>
+        <option value="AR">AR</option>
+        <option value="MR">MR</option>
+      </select><br><br>
+      <label for="znasz">znasz:</label><br>
+      <select id="typ" name="znasz">
+        <option value="tak">tak</option>
+        <option value="nie">nie</option>
+      </select><br><br>
+      <button type="submit" class="btn-green">Save</button>
+      <button type="reset" class="btn-green">Cancel</button>
+    </form>
+  </main>
+</body>
+</html>
